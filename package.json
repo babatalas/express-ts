@@ -1,0 +1,22 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "description": "Express TypeScript",
+  "main": "index.js",
+  "repository": "git@github.com:babatalas/express-ts.git",
+  "author": "Eko Prasetyo <ekoprasetyo.me@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/Release/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
